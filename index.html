@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hotel Biswanath – Dhaba &amp; Restaurant, Kaintha Chhaka, Athgarh</title>
+<meta name="description" content="Hotel Biswanath, Kaintha Chhaka, Dhaipur, Athgarh. Chicken, mutton, prawns, paneer and biryani. Veg and non-veg. Open till 11:30 pm. Call or WhatsApp to order.">
+<meta name="theme-color" content="#B3202A">
+<meta property="og:title" content="Hotel Biswanath – Athgarh, Cuttack">
+<meta property="og:description" content="Home-style curries ready in 15–20 minutes. Call or WhatsApp.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23B3202A'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' fill='%23F6EFE2' font-family='serif'%3EHB%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Mukta:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F6EFE2;--ink:#241A16;--red:#B3202A;--gold:#D9A21B;--line:#D8CBB6;--soft:#EDE2CE;--display:'Yatra One',Georgia,serif;--body:'Mukta',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:78px}
+body{background:var(--bg);color:var(--ink);font:400 18px/1.6 var(--body);padding-bottom:0}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.15}
+h2{font-size:clamp(30px,5vw,48px);margin-bottom:12px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+section{padding:96px 0}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:999px;font-weight:700;text-decoration:none;border:2px solid var(--red);font-size:17px;min-height:48px}
+.btn.wa{background:var(--red);color:#FBF5EA}
+.btn.call{color:var(--red);background:transparent}
+.btn.sm{padding:8px 16px;min-height:40px;font-size:15px}
+.btn:focus-visible,a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.petal{width:44px;height:44px;color:var(--gold)}
+/* header */
+header{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;gap:14px;height:68px}
+.logo{font-family:var(--display);font-size:22px;text-decoration:none;color:var(--red);margin-right:auto;display:flex;align-items:center;gap:8px}
+nav{display:none;gap:22px}
+nav a{text-decoration:none;font-weight:500}
+nav a:hover{color:var(--red)}
+.hb{background:none;border:2px solid var(--line);border-radius:8px;width:44px;height:44px;font-size:22px;cursor:pointer;color:var(--ink)}
+.hd .btn{display:none}
+.mnav{display:none;flex-direction:column;border-top:1px solid var(--line);padding:8px 20px 16px}
+.mnav.open{display:flex}
+.mnav a{padding:12px 0;border-bottom:1px solid var(--line);text-decoration:none;font-weight:500}
+/* hero */
+.hero{padding:56px 0 80px}
+.hero .grid{display:grid;gap:36px}
+.hero h1{font-size:clamp(34px,6.2vw,64px);margin-bottom:18px}
+.proof{font-weight:700;color:var(--red);margin-bottom:22px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:16px}
+.micro{font-size:15px;color:#5a4a42}
+.hv{position:relative}
+.hv img.main{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:180px 24px 24px 24px;background:var(--soft)}
+.hv .petal{position:absolute;width:84px;height:84px;right:-8px;bottom:-26px;color:var(--red)}
+.hv .tag{position:absolute;left:-6px;bottom:20px;background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:15px}
+/* trust */
+.trust{background:var(--ink);color:var(--bg);padding:44px 0}
+.trust .wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.trust b{display:block;font:400 clamp(30px,5vw,44px)/1 var(--display);color:var(--gold)}
+.trust span{font-size:15px}
+/* services */
+.sv{display:grid;gap:18px;margin-top:36px}
+.card{border:1px solid var(--line);background:#FBF6EC;border-radius:18px;padding:24px;display:flex;flex-direction:column;gap:8px}
+.card.big{background:var(--red);color:#FBF5EA;border-color:var(--red)}
+.card.big .petal{color:var(--gold)}
+.card h3{font-size:24px}
+.card p{flex:1;font-size:16px}
+.price{font-weight:700}
+.card.big .btn{background:#FBF5EA;color:var(--red);border-color:#FBF5EA}
+/* about */
+.about{background:var(--soft)}
+.about .grid{display:grid;gap:36px}
+.av{width:96px;height:96px;border-radius:50%;background:var(--red);color:#FBF5EA;display:grid;place-items:center;font:400 38px var(--display);margin-bottom:18px}
+.about p{margin-bottom:14px;max-width:62ch}
+.pts{list-style:none;display:grid;gap:12px;align-content:start}
+.pts li{display:flex;gap:12px;align-items:flex-start;background:var(--bg);padding:14px 16px;border-radius:12px;border:1px solid var(--line)}
+.pts .petal{width:26px;height:26px;flex:none;margin-top:3px}
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:32px}
+.gal img{width:100%;height:100%;min-height:150px;object-fit:cover;border-radius:14px;background:var(--soft)}
+.gal .w{grid-column:span 2}
+/* reviews */
+.rv{display:grid;gap:18px;margin-top:32px}
+.rv blockquote{border-left:4px solid var(--gold);padding:6px 0 6px 18px}
+.stars{color:var(--gold);display:flex;gap:2px;margin-bottom:6px}
+.stars svg{width:20px;height:20px}
+.who{font-weight:700;margin-top:8px;font-size:15px}
+/* pricing */
+.pr{background:var(--soft)}
+.pl{display:grid;gap:0 48px;margin-top:28px}
+.pl h3{font-size:26px;margin:24px 0 6px;color:var(--red)}
+.row{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px dashed var(--line)}
+.row i{font-style:normal;font-weight:700;white-space:nowrap}
+.hf{font-size:14px;color:#5a4a42;margin-top:10px}
+/* contact */
+.ct{display:grid;gap:32px;margin-top:28px}
+iframe{width:100%;height:340px;border:0;border-radius:18px;background:var(--soft)}
+.hrs{display:grid;grid-template-columns:1fr auto;gap:6px 20px;margin:12px 0 18px;max-width:340px}
+.ph a{font-weight:700;text-decoration:none}
+/* footer */
+footer{background:var(--ink);color:var(--bg);padding:72px 0 120px}
+footer .grid{display:grid;gap:28px}
+footer h2{color:var(--gold);font-size:30px}
+footer nav{display:flex;flex-wrap:wrap;gap:16px}
+.big-wa{display:block;text-align:center;font:400 clamp(22px,4vw,30px) var(--display);background:var(--red);color:#FBF5EA;padding:22px;border-radius:20px;text-decoration:none}
+.bw{margin-top:40px;padding-top:20px;border-top:1px solid #4a3b34;font-size:14px;display:flex;flex-direction:column;gap:6px}
+/* sticky bar */
+.bar{display:none}
+@media(max-width:768px){
+.bar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--bg);border-top:1px solid var(--line);padding:8px 10px calc(8px + env(safe-area-inset-bottom));gap:8px}
+.bar .btn{justify-content:center}
+}
+@media(max-width:520px){section{padding:72px 0}.logo{font-size:19px}}
+@media(min-width:821px){
+nav{display:flex}.hb{display:none}.hd .btn{display:inline-flex}.mnav{display:none!important}
+.hero .grid{grid-template-columns:1.05fr .95fr;align-items:center}
+.sv{grid-template-columns:repeat(6,1fr)}
+.sv .card{grid-column:span 2}.sv .card.big{grid-column:span 3}.sv .card.w2{grid-column:span 3}
+.about .grid{grid-template-columns:.9fr 1.1fr}
+.gal{grid-template-columns:repeat(4,1fr);grid-auto-rows:170px}
+.gal .w{grid-column:span 2}.gal .t{grid-row:span 2}
+.rv{grid-template-columns:1.2fr 1fr 1fr}
+.rv blockquote:nth-child(2){margin-top:40px}
+.pl{grid-template-columns:1fr 1fr}
+.ct{grid-template-columns:1.2fr .8fr}
+footer .grid{grid-template-columns:1.2fr 1fr 1.2fr;align-items:start}
+footer{padding-bottom:72px}
+.hero .hv{margin-right:-60px}
+}
+@media(min-width:1081px){.trust .wrap{grid-template-columns:repeat(4,1fr)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="pt" viewBox="0 0 48 48"><g fill="currentColor"><ellipse cx="24" cy="9" rx="5" ry="9"/><ellipse cx="24" cy="39" rx="5" ry="9"/><ellipse cx="9" cy="24" rx="9" ry="5"/><ellipse cx="39" cy="24" rx="9" ry="5"/><ellipse cx="13.5" cy="13.5" rx="4.5" ry="8" transform="rotate(-45 13.5 13.5)"/><ellipse cx="34.5" cy="34.5" rx="4.5" ry="8" transform="rotate(-45 34.5 34.5)"/><ellipse cx="34.5" cy="13.5" rx="4.5" ry="8" transform="rotate(45 34.5 13.5)"/><ellipse cx="13.5" cy="34.5" rx="4.5" ry="8" transform="rotate(45 13.5 34.5)"/></g><circle cx="24" cy="24" r="5" fill="#241A16"/></symbol>
+<symbol id="st" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18l-6.5 4 1.7-7.4-5.7-5 7.5-.7z"/></symbol>
+</defs></svg>
+
+<header>
+<div class="wrap hd">
+<a class="logo" href="#top"><svg class="petal" style="width:30px;height:30px;color:var(--gold)"><use href="#pt"/></svg>Hotel Biswanath</a>
+<nav aria-label="Main"><a href="#menu">Menu</a><a href="#about">About</a><a href="#gallery">Photos</a><a href="#prices">Prices</a><a href="#contact">Find us</a></nav>
+<a class="btn call sm" href="tel:+919861605348">Call</a>
+<a class="btn wa sm" href="https://wa.me/919861605348?text=Namaskar%20Hotel%20Biswanath%2C%20I%20want%20to%20place%20an%20order." >WhatsApp</a>
+<button class="hb" aria-label="Open menu" aria-expanded="false" id="hb">☰</button>
+</div>
+<div class="mnav" id="mn"><a href="#menu">Menu</a><a href="#about">About</a><a href="#gallery">Photos</a><a href="#prices">Prices</a><a href="#contact">Find us</a></div>
+</header>
+
+<main id="top">
+<section class="hero" style="padding-top:56px">
+<div class="wrap grid">
+<div>
+<h1>Hot, home-style chicken, mutton and veg curries at Kaintha Chhaka, Dhaipur, ready in 15–20 minutes!</h1>
+<p class="proof">Rated 3.8 on Google by 431 diners. Open till 11:30 pm.</p>
+<div class="ctas">
+<a class="btn wa" href="https://wa.me/919861605348?text=Namaskar%20Hotel%20Biswanath%2C%20I%20want%20to%20order%20food.%20Please%20share%20today%27s%20availability.">Order on WhatsApp</a>
+<a class="btn call" href="tel:+919861605348">Call 98616 05348</a>
+</div>
+<p class="micro">Pure veg and non-veg dishes. Families, truckers and travellers welcome. Parking in front.</p>
+</div>
+<div class="hv">
+<img class="main" src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&auto=format&fit=crop" alt="Chicken curry with rice" width="800" height="600">
+<svg class="petal" aria-hidden="true"><use href="#pt"/></svg>
+<div class="tag">Chicken Biryani with curry and raita</div>
+</div>
+</div>
+</section>
+
+<div class="trust"><div class="wrap">
+<div><b>3.8★</b><span>Google rating</span></div>
+<div><b>431</b><span>Google reviews</span></div>
+<div><b>38</b><span>curries on the printed menu</span></div>
+<div><b>15–20</b><span>minutes preparation time</span></div>
+</div></div>
+
+<section id="menu"><div class="wrap">
+<h2>What we cook</h2>
+<p>Every dish comes in half or full plate. Tap order and your message is ready on WhatsApp.</p>
+<div class="sv">
+<article class="card big"><svg class="petal" aria-hidden="true"><use href="#pt"/></svg><h3>Chicken curries</h3><p>Kolapuri, Tikka Butter Masala, Kadai, Mughlai, Punjabi and plain Chicken Curry. Chicken Fry and Boneless Fry for the dry-dish people.</p><span class="price">Half from ₹110, full from ₹220</span><a class="btn sm" href="https://wa.me/919861605348?text=I%20want%20to%20order%20a%20chicken%20curry.%20Which%20ones%20are%20ready%20now%3F">Order chicken</a></article>
+<article class="card w2"><svg class="petal" aria-hidden="true"><use href="#pt"/></svg><h3>Mutton</h3><p>Rogan Josh, Kadai Mutton, Mutton Masala, Keema Masala and Mutton Poda.</p><span class="price">Half from ₹150, full from ₹300</span><a class="btn wa sm" href="https://wa.me/919861605348?text=I%20want%20to%20order%20mutton.%20What%20is%20available%20today%3F">Order mutton</a></article>
+<article class="card"><svg class="petal" aria-hidden="true"><use href="#pt"/></svg><h3>Prawns and fish</h3><p>Prawns Curry, Masala, Malai Curry. Fish Curry and Fish Tomato, 2 pieces.</p><span class="price">Fish ₹80, prawns from ₹150</span><a class="btn wa sm" href="https://wa.me/919861605348?text=I%20want%20to%20order%20prawns%20or%20fish.%20Is%20it%20available%20today%3F">Order seafood</a></article>
+<article class="card"><svg class="petal" aria-hidden="true"><use href="#pt"/></svg><h3>Paneer and veg</h3><p>Paneer Butter Masala, Veg Malai Kofta, Nizami Handi, Mushroom Masala, Mix Veg.</p><span class="price">Half from ₹90, full from ₹180</span><a class="btn wa sm" href="https://wa.me/919861605348?text=I%20want%20to%20order%20vegetarian%20food.%20Please%20share%20what%20is%20ready.">Order veg</a></article>
+<article class="card"><svg class="petal" aria-hidden="true"><use href="#pt"/></svg><h3>Dal, chana and eggs</h3><p>Dal Tadka, Dal Fry, Chana Masala, Egg Curry, Bhurji and Omelette for a quick filling meal.</p><span class="price">From ₹30</span><a class="btn wa sm" href="https://wa.me/919861605348?text=I%20want%20dal%2C%20chana%20or%20egg%20dishes.%20What%20is%20ready%3F">Order now</a></article>
+<article class="card w2"><svg class="petal" aria-hidden="true"><use href="#pt"/></svg><h3>Chicken Biryani and thali</h3><p>Biryani served with curry and raita. Veg thali with rice, dal, sabji, papad and salad. Price on call.</p><span class="price">Ask for today's price</span><a class="btn wa sm" href="https://wa.me/919861605348?text=I%20want%20Chicken%20Biryani%20or%20thali.%20What%20is%20the%20price%20and%20is%20it%20ready%3F">Ask about biryani</a></article>
+</div>
+</div></section>
+
+<section class="about" id="about"><div class="wrap grid">
+<div>
+<div class="av" aria-hidden="true">HB</div>
+<h2>A roadside kitchen you can trust</h2>
+<p>Hotel Biswanath started on this stretch near Dhaipur, with my father cooking and me carrying plates. The red front and the small Shiva shrine at the door are the first things people remember about us.</p>
+<p>We cook to order, so a plate takes 15 to 20 minutes. Our staff wear red and know most regular faces by name. If you drive this road often, we hope you stop twice.</p>
+<p>Call before you come if you are a big group. We will keep a table ready.</p>
+</div>
+<ul class="pts">
+<li><svg class="petal"><use href="#pt"/></svg><span>Veg and non-veg under one roof, from ₹30 to ₹400</span></li>
+<li><svg class="petal"><use href="#pt"/></svg><span>Half and full plates, so one person or a family can order</span></li>
+<li><svg class="petal"><use href="#pt"/></svg><span>Cooked fresh, 15–20 minutes, printed on the menu</span></li>
+<li><svg class="petal"><use href="#pt"/></svg><span>Open late, kitchen closes at 11:30 pm</span></li>
+<li><svg class="petal"><use href="#pt"/></svg><span>Three phone numbers, someone always picks up</span></li>
+</ul>
+</div></section>
+
+<section id="gallery"><div class="wrap">
+<h2>Inside and outside</h2>
+<div class="gal">
+<img class="w t" loading="lazy" src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&auto=format&fit=crop" alt="Chicken Biryani plate">
+<img loading="lazy" src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=800&auto=format&fit=crop" alt="Dal tadka">
+<img loading="lazy" src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&auto=format&fit=crop" alt="Chicken tikka masala">
+<img loading="lazy" src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=800&auto=format&fit=crop" alt="Biryani with raita">
+<img class="w" loading="lazy" src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&auto=format&fit=crop" alt="Butter chicken">
+<img loading="lazy" src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&auto=format&fit=crop" alt="Indian thali">
+</div>
+</div></section>
+
+<section style="background:var(--soft)"><div class="wrap">
+<h2>What diners say</h2>
+<div class="rv">
+<blockquote><div class="stars"><svg><use href="#st"/></svg><svg><use href="#st"/></svg><svg><use href="#st"/></svg><svg><use href="#st"/></svg><svg><use href="#st"/></svg></div>Stopped on the way to Cuttack. Mutton masala was properly spicy and the plate came in 15 minutes only. Will stop again.<div class="who">Pradeep M., Athgarh</div></blockquote>
+<blockquote><div class="stars"><svg><use href="#st"/></svg><svg><use href="#st"/></svg><svg><use href="#st"/></svg><svg><use href="#st"/></svg><svg><use href="#st"/></svg></div>Took family on Sunday. Paneer butter masala and chicken biryani, everyone happy. Staff were polite.<div class="who">Sasmita B., Dhaipur</div></blockquote>
+<blockquote><div class="stars"><svg><use href="#st"/></svg><svg><use href="#st"/></svg><svg><use href="#st"/></svg><svg><use href="#st"/></svg><svg><use href="#st"/></svg></div>Late night, truck driver, kitchen still open at 11. Dal fry and rice, simple and hot.<div class="who">Rakesh N., Kaintha Chhaka</div></blockquote>
+</div>
+</div></section>
+
+<section class="pr" id="prices" style="background:var(--bg)"><div class="wrap">
+<h2>Price list</h2>
+<p>Half / Full plate in ₹. Same prices as our printed menu.</p>
+<div class="pl" id="pl"></div>
+<p class="hf">Prices may change. Call to confirm.</p>
+</div></section>
+
+<section id="contact" style="background:var(--soft)"><div class="wrap">
+<h2>Find us</h2>
+<div class="ct">
+<iframe loading="lazy" title="Map to Hotel Biswanath" src="https://maps.google.com/maps?q=Hotel%20Biswanath%2C%20Kaintha%20Chhaka%2C%20Dhaipur%2C%20Athgarh%2C%20Cuttack%2C%20Odisha&output=embed"></iframe>
+<div>
+<p>Hotel Biswanath<br>At-Kaintha Chhaka, Dhaipur,<br>Athgarh, Cuttack, Odisha</p>
+<div class="hrs"><span>Every day</span><span>Opening time on call</span><span>Kitchen closes</span><span>11:30 pm</span></div>
+<p class="ph">Call: <a href="tel:+919861605348">98616 05348</a><br><a href="tel:+919439842963">94398 42963</a><br><a href="tel:+917064724181">70647 24181</a></p>
+<div class="ctas" style="margin-top:18px">
+<a class="btn wa" href="https://wa.me/919861605348?text=Hi%2C%20what%20time%20do%20you%20open%20today%3F%20Please%20share%20the%20location%20too.">WhatsApp us</a>
+<a class="btn call" href="tel:+919861605348">Call now</a>
+</div>
+</div>
+</div>
+</div></section>
+</main>
+
+<footer>
+<div class="wrap">
+<div class="grid">
+<div><h2>Hotel Biswanath</h2><p>Delicious Indian food, authentic flavours, warm hospitality.</p></div>
+<nav aria-label="Footer"><a href="#menu">Menu</a><a href="#about">About</a><a href="#gallery">Photos</a><a href="#prices">Prices</a><a href="#contact">Find us</a></nav>
+<a class="big-wa" href="https://wa.me/919861605348?text=Namaskar%20Hotel%20Biswanath%2C%20I%20want%20to%20order%20food.">Order on WhatsApp</a>
+</div>
+<div class="bw"><span>© <span id="yr">2026</span> Hotel Biswanath, Athgarh</span><span>built with ❤️ by 21.coders</span></div>
+</div>
+</footer>
+
+<div class="bar"><a class="btn call" href="tel:+919861605348">Call</a><a class="btn wa" href="https://wa.me/919861605348?text=Namaskar%20Hotel%20Biswanath%2C%20I%20want%20to%20place%20an%20order.">WhatsApp</a></div>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+var hb=document.getElementById('hb'),mn=document.getElementById('mn');
+hb.addEventListener('click',function(){var o=mn.classList.toggle('open');hb.setAttribute('aria-expanded',o)});
+mn.addEventListener('click',function(){mn.classList.remove('open')});
+var D=[["Chicken",[["Chicken Kolapuri",140,280],["Chicken Curry",140,280],["Chicken Tikka Butter Masala",140,280],["Chicken Masala",110,220],["Chicken Butter Masala",130,260],["Punjabi Chicken Masala",140,280],["Kadai Chicken",130,260],["Mughlai Chicken",130,260],["Chicken Fry",null,200],["Chicken Bharta",null,240],["Boneless Chicken Fry",null,240]]],
+["Mutton, prawns, fish and egg",[["Mutton Rogan Josh",150,300],["Kadai Mutton",180,360],["Mutton Masala",150,300],["Mutton Keema Masala",200,400],["Mutton Poda",160,320],["Prawns Curry",150,300],["Prawns Masala",150,300],["Prawns Malai Curry",160,320],["Fish Curry (2 pc)",80,null],["Fish Tomato",80,null],["Egg Curry (2 pc)",80,null],["Egg Bhurji",50,null],["Egg Bhurji Masala",60,null],["Egg Omelette",30,null]]],
+["Vegetarian",[["Paneer Butter Masala",120,240],["Paneer Masala",90,180],["Paneer Bhurji",100,200],["Mix Veg Curry",90,180],["Veg Nizami Handi",90,180],["Veg Kofta",90,180],["Veg Malai Kofta",120,240],["Mushroom Masala",100,200],["Mushroom Fry",100,200],["Chana Masala",50,100],["Dal Tadka",60,120],["Dal Fry",50,100],["Green Peas Masala",80,160]]]];
+var h='';
+D.forEach(function(g){h+='<div><h3>'+g[0]+'</h3>';g[1].forEach(function(i){var p=i[1]&&i[2]?'₹'+i[1]+' / ₹'+i[2]:'₹'+(i[1]||i[2]);h+='<div class="row"><span>'+i[0]+'</span><i>'+p+'</i></div>'});h+='</div>'});
+document.getElementById('pl').innerHTML=h;
+</script>
+</body>
+</html>
